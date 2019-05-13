@@ -19,7 +19,7 @@ import sys
 # Visa  205.96
 # Cash  455.51
 
-# Sum of all sales (values) is initialized with zero, we just started
+# Sum of all categories (values) is initialized with zero, we just started
 sum_of_values = 0
 
 # Previous key is initialized with None, we just started
