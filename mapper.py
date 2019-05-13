@@ -36,6 +36,13 @@ for line in sys.stdin:
 
     # store the 6 elements of the tuple in seperate variables
     date, time, item, category, sales, payment = data
+    
+    try:
+        date, time, item, category, sales, payment = data
+    except: 
+         print("Error: Less then 6 elements stored")  
+
+
 
     # Write the key-value combination to standard output (stdout)
     # Key is the payment, value is the sales     
