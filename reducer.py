@@ -22,7 +22,7 @@ import sys
 # Sum of all categories (values) is initialized with zero, we just started
 sum_of_values = 0
 count_of_values = 0
-#avg_of_values = 0
+avg_of_values = 0
 
 # Previous key is initialized with None, we just started
 previous_key = None
@@ -58,7 +58,7 @@ for line in sys.stdin:
     # to a float data type (like decimal)
     sum_of_values += float(value)
     count_of_values += 1
-    #avg_of_values = sum_of_values/count_of_values
+    avg_of_values = sum_of_values/count_of_values
     # the previous key for the next iteration is the current key of the this iteration 
     previous_key = key
 
